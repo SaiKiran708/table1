@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            FORMS
+        </title>
+        <link rel="stylesheet" href="forms.css">
+    </head>
+    <body>
+    <fieldset>
+        <legend>REGISTRATION FORM</legend>
+        <table>
+            <!--FIRST NAME-->
+            <tr>
+                <td>
+                    FIRST NAME
+                </td>
+                <td>
+                    <input type="text" name="fname" placeholder="enter first name">
+                </td>
+                <td>
+                    <span>(***enter valid first name***)</span>
+            </td>
+            </tr>
+            <!--LAST NAME-->
+            <tr>
+                <td>
+                    LAST NAME
+                </td>
+                <td>
+                    <input type="text" name="Lname" placeholder="enter  Lastname">
+                </td>
+                <td>
+                    <span>(***enter valid last name***)</span>
+            </td>
+            </tr>
+
+
+            <!--PASSWORD-->
+            <tr>
+                <td>
+                    PASSWORD
+                </td>
+                <td>
+                    <input type="password" name="Pass" placeholder="enter password">
+                </td>
+                <td>
+                    <span>(***enter valid password***)</span>
+            </td>
+            </tr>
+
+            <!--CONFIRM PASSWORD-->
+            <tr>
+                <td>
+                    CONFIRM PASSWORD
+                </td>
+                <td>
+                    <input type="password" name="CPass" placeholder="enter confirm password">
+                </td>
+                <td>
+                    <span>(***password and confirm password must be same***)</span>
+            </td>
+            </tr>
+
+            <!--EMAIL-->
+            <tr>
+                <td>
+                    EMAIL
+                </td>
+                <td>
+                    <input type="Email" name="Ename" placeholder="enter email">
+                </td>
+                <td>
+                    <span>(***enter valid email***)</span>
+            </td>
+            </tr>
+
+            <!--AGE-->
+            <tr>
+                <td>
+                    AGE
+                </td>
+                <td>
+                    <input type="Age" name="Aname" placeholder="enter Age">
+                </td>
+                <td>
+                    <span>(***enter valid Age***)</span>
+            </td>
+            </tr>
+
+            <!--MOBILE-->
+            <tr>
+                <td>
+                    MOBILE
+                </td>
+                <td>
+                    <input type="tel" name="Mnumb" placeholder="enter mobile">
+                </td>
+                <td>
+                    <span>(***enter valid mobile number***)</span>
+            </td>
+            </tr>
+
+            <!--LANGUAGES-->
+            <tr>
+                <td>
+                    LANGUAGES
+                </td>
+                <td>
+                    <input type="checkbox" name="Languages" value="C">C lang
+                    <input type="checkbox" name="Languages" value="C++">CPP
+                    
+                </td>
+                <td>
+                    <span>(***select at least one language***)</span>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="languages" value="java">Java lang
+                    <input type="checkbox" name="languages" value="dotnet">.Net
+                </td>
+            </tr>
+
+            <!--GENDER-->
+            <tr>
+                <td>
+                    GENDER
+                </td>
+                <td>
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                </td>
+                <td>
+                    <span>(***select gender***)</span>
+            </td>
+            </tr>
+
+            <!--COUNTRY-->
+            <tr>
+                <td>COUNTRY</td>
+                <td><select name="country">
+                    <option value="">Choose Country</option>
+                    <option value="ind">India</option>
+                    <option value="usa">America</option>
+                    <option value="uk">London</option>
+                    <option value="canada">Canada</option>
+                </select>
+                
+
+
+                </td>
+            </tr>
+            <!--DATE-->
+            <tr>
+                <td>DOB</td>
+                <td>
+                    <input type="date" name="udob">
+                
+                </td>
+                <td><span>*** select valid date of birth</span></td>
+            </tr>
+
+            <!--color-->
+            <tr>
+                <td>
+                    FAV COLOR
+                </td>
+                <td>
+                    <imput type="color" name="fav color"></imput>
+                </td>
+                <td>
+                    <span>
+                        (*** select fav color***)
+                    </span>
+                </td>
+                
+                <!--ADDRESS-->
+                <tr>
+                    <td>
+                        ADDRESS
+                    </td>
+                    <td>
+                        <textarea cols="16" rows="5" name="address"></textarea>
+                    </td>
+                    <td>
+                        <span> (*** enter valid address***)</span>
+                    </td>
+
+                </tr>
+              
+               <!--submit&reset-->
+              <tr>
+                <td>
+                    <input type="submit" value="register">
+
+                </td>
+                <td>
+                    <input type="reset" value="cancel">
+                </td>
+              </tr>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+</html>
